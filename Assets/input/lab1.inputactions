@@ -771,6 +771,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Mode",
+            "id": "a75031f2-d261-45cb-a896-8a054fe1479f",
+            "actions": [
+                {
+                    "name": "ChangeMode",
+                    "type": "Button",
+                    "id": "f638d5fb-3da0-4adb-ae8f-a54529414105",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a02aa4e2-f158-4716-ba94-cb6b3e4c3e1a",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "ChangeMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
